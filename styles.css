@@ -1,0 +1,283 @@
+body {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #8A2D3B;
+  }
+
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    color: #a03344;
+    
+    height: 100px;
+    border-radius: 2%;
+    background-color: #FBDB93;
+}
+
+.player1Score {
+    font-size: 2rem;
+}
+.player2Score {
+    font-size: 2rem;
+}
+
+.scoreboard {
+
+    border-radius: 2%;
+    background-color: #a03344;
+    box-shadow: 10px 10px 5px #541b23;
+}
+#result-text {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.player-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.dice {
+    width: 170px;
+    height: 170px;;
+    border-radius: 5%;
+    background-color: #FBDB93;
+    position: relative;
+}
+.one-1 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+
+.two-1 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+.two-2 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+}
+
+.three-1 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+
+.three-2 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.three-3 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+}
+
+.four-1 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+.four-2 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7%;
+    left: 75%;
+}
+
+.four-3 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 7%;
+}
+
+.four-4 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 75%; 
+}
+
+
+.five-1 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+.five-2 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7%;
+    left: 75%;
+}
+
+.five-3 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 7%;
+}
+
+.five-4 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 75%; 
+}
+
+.five-5 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.six-1 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+
+.six-2 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+
+.six-3 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 7%;
+}
+
+.six-4 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 7%;
+    left: 75%;
+}
+
+.six-5 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+}
+
+.six-6 {
+    background-color: #BE5B50;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 75%; 
+}
+
+.btn {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: #C14600;
+    border: 0px;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #e09569;
+    border: 0px;
+}
+#players .col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem; /* space between stacked dice */
+  }
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
