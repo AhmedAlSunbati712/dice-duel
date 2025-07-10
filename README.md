@@ -2,7 +2,7 @@
 
 A fun two-player dice game built with **HTML**, **CSS**, **JavaScript**, and styled using **Bootstrap 5**. Roll the dice, track scores, and find out who wins!
 
-![screenshot](https://imgur.com/7fgdZPp)
+![screenshot](https://imgur.com/7fgdZPp.png)
 
 ## Features
 
